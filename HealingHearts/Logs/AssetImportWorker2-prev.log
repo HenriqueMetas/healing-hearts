@@ -1,0 +1,665 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 31967 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Henrique Gaspar/Documents/MetasProject/Game Dev/Healing Hearts/healing-hearts/HealingHearts
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51011
+Successfully changed project path to: C:/Users/Henrique Gaspar/Documents/MetasProject/Game Dev/Healing Hearts/healing-hearts/HealingHearts
+C:/Users/Henrique Gaspar/Documents/MetasProject/Game Dev/Healing Hearts/healing-hearts/HealingHearts
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3748] Host "[IP] 192.168.1.149 [Port] 0 [Flags] 2 [Guid] 1950215394 [EditorId] 1950215394 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5E527NB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3748] Host "[IP] 192.168.1.149 [Port] 0 [Flags] 2 [Guid] 1950215394 [EditorId] 1950215394 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5E527NB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Henrique Gaspar/Documents/MetasProject/Game Dev/Healing Hearts/healing-hearts/HealingHearts/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7800 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     16172 MB
+    Driver:   31.0.24033.1003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009211 seconds.
+- Loaded All Assemblies, in  0.229 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.157 seconds
+Domain Reload Profiling: 386ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (125ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.401 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 4394.
+Memory consumption went from 159.6 MB to 157.8 MB.
+Total: 2.582700 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.028800 ms  DeleteObjects: 0.314600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EditMode.Common.GUIContents.cs: 65c1c1202ff54684fcffbead53404142 -> cf4e2c2e6037f50bfe67fcf40fe209ed
+  custom:scripting/monoscript/fileName/MathConstants.cs: a20206927307b655376ef3f83f4e1b2c -> 3b794cbac4307bdd58fb2ab65f1447ab
+  custom:scripting/monoscript/fileName/CSGNode.cs: 9f84313514c3e97a10f1572cc2d92025 -> fdc2ec9b23b02f868ace913580fd351b
+  custom:scripting/monoscript/fileName/IShapeSettings.cs: 2df7d8daac549cf1c0dee4d2c4ca79b2 -> 847b8efd29e9c969d7621a25f7167416
+  custom:scripting/monoscript/fileName/MeshInstanceManager.Build.cs: 56441a83d5dee02ec24543602e9db109 -> 79bdf101f164703846db788d89c21f2c
+  custom:scripting/monoscript/fileName/CSGTreeBrush.Native.cs: f0a29d5b9199d72dfae23bfbc3f9a1b8 -> 7df766ce26865fe1143441a0b8281504
+  custom:scripting/monoscript/fileName/UndoGroup.cs: e3fdf66fd0743b0a425711ebbe3ec570 -> 919c4de39e73bb28997b5b8c46dcd823
+  custom:scripting/monoscript/fileName/FBXUnityMeshGetter.cs: 398ba8fe6fb41e32e14e5a4a3e52f217 -> 443adbfd471fb8355a8fcbc0ed14c6ac
+  custom:scripting/monoscript/fileName/CSGTreeBrush.cs: f0a29d5b9199d72dfae23bfbc3f9a1b8 -> 7df766ce26865fe1143441a0b8281504
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SceneViewInfo.GUIContents.cs: 2fd1b3308e1b06d0337ca572f7258aa0 -> 57f4c7e4a4db74199f153e2183fa457c
+  custom:scripting/monoscript/fileName/EditMode.Edit.cs: d07ceea76c997ba4519b280185e5d5c3 -> 9c32c983ddc63607773a72be862efa6e
+  custom:scripting/monoscript/fileName/CSGOptions.PreferenceWindow.cs: a2f0a5508f03947593bb53a33348728c -> 9207cccf6c1414079ae6bfd6dc57e2f2
+  custom:scripting/monoscript/fileName/BrushSelection.cs: 659b1eef5bc73af9eaffbeede1bd90c9 -> d0ebfa0e2bf7efacafe9a9ac3c365712
+  custom:scripting/monoscript/fileName/EditMode.Edit.GUI.cs: a61cc85bda75bd0bce57f7b824d20ce2 -> 4dd7ec1e9ea05004f3f784ea735c98e4
+  custom:scripting/monoscript/fileName/CSGModelExported.cs: 48dccb26341d35aeea9d8966cf0a17a6 -> a44c79e931664e1e88e31cd6f95ccbe5
+  custom:scripting/monoscript/fileName/CSGTreeBranch.cs: 0edaaab336cedfc1a84560bdbd528e8d -> a8492f0f280baf6cdf2b97dc04922fc7
+  custom:scripting/monoscript/fileName/Surface.cs: 0266f0b3312f616db9bb088014578d51 -> f3a649e4f0cd4fa6625cff9dd3e787b0
+  custom:scripting/monoscript/fileName/BrushMesh.cs: eaf2a5de20d45b9bdcfd88e85cbe8519 -> bb1d04e69827aa8b60bbc0a9894c59cf
+  custom:scripting/monoscript/fileName/EditMode.Surface.GUI.cs: 0d8494c629599722902eb8e35aca1047 -> 00e9113b2ada959a715d9c996c8f7f1c
+  custom:scripting/monoscript/fileName/SceneDragTool.BrushDragOnSurface.cs: 20e4ee7a59e6534934ec12af1a9d6fa1 -> f662297d6562ac7684ae0b3e632670b0
+  custom:scripting/monoscript/fileName/Generator.Box.Settings.cs: d8f1e8af390c85dcf39735e66e440c90 -> bd5d37a20d37bd1e3790b09443eb3fe5
+  custom:scripting/monoscript/fileName/CSGSlider2D.cs: 725fcdff72b10de81359965c352a3f61 -> df9db256720cd57d857c9e0381db71bd
+  custom:scripting/monoscript/fileName/Generator.ExtrudedBase.cs: 858fb2e7d832025cf08723e2cdf2e0b0 -> 5008338bb47995a4ba574617d1e31952
+  custom:scripting/monoscript/fileName/PrefabUtility.cs: b4c8476aa565ccaecd82b4aa022ea50c -> 70efc77b8c7aea9f9d39f29c2a26b373
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.GUI.cs: 44d86263584b394d8522b3d2001144b8 -> 6cea9a7c904d9bc2ceffa4d1a1e148bb
+  custom:scripting/monoscript/fileName/ControlMeshOperations.cs: cb62a3257cd2b765e741e6aa13af862b -> 94b5c16aa5d38db7cd0e53fc9eb47811
+  custom:scripting/monoscript/fileName/SelectBrushSurface.cs: 71db9efa92e1da6d2ee8f6c7814eaf25 -> ee97a7ac074b53e8a28627d43eb8617d
+  custom:scripting/monoscript/fileName/ISceneDragTool.cs: e94f6cd9d08cf40d64c40ede65d9661e -> 6e0a038b66b46dbd53ad1c8bcbfc567d
+  custom:scripting/monoscript/fileName/Generator.Sphere.GUI.cs: 8677c7af97b58def9bdf486599e637b7 -> 29bddbaf1e6e757b10dd78a4437c8bb3
+  custom:scripting/monoscript/fileName/BrushFactory.cs: a84da75b35110e7b2d4fbf542f594414 -> 69f7bb7e8f037861d7850b1f4ab7c122
+  custom:scripting/monoscript/fileName/SceneViewInfo.GUI.cs: 2fd1b3308e1b06d0337ca572f7258aa0 -> 57f4c7e4a4db74199f153e2183fa457c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Generator.FreeDraw.cs: f48c19522a8bcd1fcb7bb3bcfc002117 -> bb680620a69b88bf143e992faf04c673
+  custom:scripting/monoscript/fileName/Generator.Box.GUI.cs: 7d7ccb2d1ee091c8b069a31087b142bf -> 8599c392b7c37f79e33b08c36c242a1a
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GeometryUtility.cs: 1fd2f79ad710ef5932c411f7594d9760 -> 47c7e7891eac9b2894ccec7ca864b752
+  custom:scripting/monoscript/fileName/ShapeUtility.cs: 35a2b4c56b01a90b6b864d7371989398 -> 7a1e7a5b760b6bdbff89a51a778a11eb
+  custom:scripting/monoscript/fileName/EditMode.Generate.cs: 57bf3698923199a5baf2d9bdc178d2df -> 3d58a14a3068207199525274da3c4557
+  custom:scripting/monoscript/fileName/CSGManager.cs: 0dd5c2efda226112d505abe47c3cacee -> 011097cadb667fd9087bf8dee5be29ec
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.Settings.cs: f69b7e3b581063c1bb280364f03be9a5 -> f760cd4a16f07f74392965680ae3ffb3
+  custom:scripting/monoscript/fileName/CSGModelComponent.Inspector.GUIContents.cs: 7c083403cd7f14f52895a0a796edd996 -> ea48c3a3ea15e3c74692bca5d0d005aa
+  custom:scripting/monoscript/fileName/CSGSlider1D.cs: 0ee9f0ea1a3c2d46c0dec777e481c1d8 -> f5cbe0e59580c616a640de6a2dd97e86
+  custom:scripting/monoscript/fileName/GeneratedMeshes.cs: 6e7e4b7019638732a1bad13ea3843532 -> 05cdfd43ca97f3abc9c8fd386fe3b5cd
+  custom:scripting/monoscript/fileName/HierarchyItem.cs: 966b24cab75db634fb86efeb16d886d1 -> d75273544a67a7e7cda09a020cd31def
+  custom:scripting/monoscript/fileName/UpdateLoop.cs: 585319a94cfc80e54562719d7078a4f7 -> 152040caad951295042d04d8e6f715e0
+  custom:scripting/monoscript/fileName/TransformOperations.cs: 2cda1e37f2d2c0ef122b98525fdedbb7 -> 95e64491185ecbc0e18e097ac00c41ea
+  custom:scripting/monoscript/fileName/TexGen.cs: 2e4cc95eaa5b10175fc7721cd9de98f0 -> 84930945bbcdce086e554824a1ffbf6d
+  custom:scripting/monoscript/fileName/Generator.Box.cs: 8502fa8235cd337afed7a70a227a14fb -> 93f6665daf12b0e5d73fc6275bab878a
+  custom:scripting/monoscript/fileName/Generator.Cylinder.Settings.cs: 8579e8c0953d5c8b8305696585984d09 -> 3c5d6b224d0d619e04144bfa3c3ebc47
+  custom:scripting/monoscript/fileName/AABB.cs: 6cd3259c8f4f656e3b55074d368afc14 -> 09af1003bac3059b5e75c5c426bafded
+  custom:scripting/monoscript/fileName/Units.cs: 2269a8e80f1d937ec2e84d22bbd7bff2 -> 24ca0c684b58cc28b54a0958f2ebf7d8
+  custom:scripting/monoscript/fileName/UnityGridManager.cs: e249204647a3bbbd5471f307353d2900 -> d296cc58e7f257b656c7f5f6306f8e78
+  custom:scripting/monoscript/fileName/EditMode.Place.cs: bdb26191b6b8cdc23b59356a3c6ad710 -> af779812f3908dedd4aef6cd86baa1ed
+  custom:scripting/monoscript/fileName/FBXExporter.cs: 6591589807e71be55bb392e82cf04efd -> 0fd8f989e648112dfa08b224a141cb05
+  custom:scripting/monoscript/fileName/ControlMeshState.Selection.cs: 7d4886933ab118ad75a1cbcc52d9c057 -> ce99e722d7ce7ad494aea49dca4ca532
+  custom:scripting/monoscript/fileName/CSGBounds.cs: 1f2f106c3b546029d07b18199bc5f43b -> b1cc9a008527245ed15a76509ae50b52
+  custom:scripting/monoscript/fileName/Generator.FreeDraw.GUIContents.cs: 50c7664ef834376a3a1f05a3686bce0f -> 49451af9adb27fb16d39fe4ad814215d
+  custom:scripting/monoscript/fileName/GeneratedMeshInstance.cs: 0e13e91452ab3086c993808f58e71c22 -> db33bb50127b3f7b21d120c3e720b571
+  custom:scripting/monoscript/fileName/FBXMeshToString.cs: 6591589807e71be55bb392e82cf04efd -> 0fd8f989e648112dfa08b224a141cb05
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Lifetime.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/CSGSceneManagerInterface.cs: ac38858fa793fd5f48a644049f4b69f2 -> 489e869fa39e97f051d24964280a7b13
+  custom:scripting/monoscript/fileName/Generator.Box.GUIContents.cs: 7d7ccb2d1ee091c8b069a31087b142bf -> 8599c392b7c37f79e33b08c36c242a1a
+  custom:scripting/monoscript/fileName/ExporterMenu.cs: cb03f3d1519c5c44df7e7e4c1ce0ecf4 -> 8d190612570787d4e43f04292b3b3db0
+  custom:scripting/monoscript/fileName/EditMode.Common.GUI.cs: fb99ac84f67accc03eb39ef5a707d5b2 -> 38dd13b87e5ac3ec5cf649a3a0728c0a
+  custom:scripting/monoscript/fileName/LegacyGeneratedMeshContainer.cs: 3ce59fc7dc251fe4889f9660b31e8bd1 -> b0df54e13124bb9179b92a8720ee5dff
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.GUI.cs: 98188d93aa6cbbea976160b58857541b -> a100db9c10ceffa2b715d6172fdfbb5c
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CSGManager.Native.cs: 0dd5c2efda226112d505abe47c3cacee -> 011097cadb667fd9087bf8dee5be29ec
+  custom:scripting/monoscript/fileName/BoundsUtilities.cs: 0d1ced1151f9c74af519f82214358dd8 -> 9f8063217daa2e1de6efd92d284c7141
+  custom:scripting/monoscript/fileName/RectangleSelectionManager.cs: 9a47b36d69d9dd58d68c158847ba7ab0 -> 1299f128a6d3e991fb4e5a721d3159cd
+  custom:scripting/monoscript/fileName/CursorUtility.cs: d43440dc43bb17dd6bff121ba8c1c2bd -> 1fd251e7b4fb03edfd83e230f6bac97a
+  custom:scripting/monoscript/fileName/ControlMeshUtility.cs: 6f09c2dc7c2a004d56bd80a54b87784d -> 58cd09c11b500d1aaa3ae221c397b003
+  custom:scripting/monoscript/fileName/SurfaceVisibilityPopup.cs: 91882f149370b906e9cc682c4ecd2c90 -> 4ed6d38cb3eed3c7e91c8faf708a1c37
+  custom:scripting/monoscript/fileName/CSGHandles.cs: dcccda9efcd8327cb0fbc4e6fecb9901 -> 01e7c6cb856c51ab8f56317c740b73d4
+  custom:scripting/monoscript/fileName/MaterialUtility.cs: 1f839c47c8feb0302f93d4473c97c714 -> 16ce2ab1088b7025d2d0f9b2630defbc
+  custom:scripting/monoscript/fileName/Tooltip.cs: 4aaf304dbd0f4145b308f2912a0f949b -> aee37d9d5ac4d47a2e96105281eacd08
+  custom:scripting/monoscript/fileName/NativeMethods.cs: 95895b50b5218eda5f6c9fc8ac4c1388 -> 5f1f31c43951b7655403188e30d6a74d
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Generator.Sphere.cs: 98c8ef89e3bd647640e8e14fcd059f8f -> bcf3f44b9f37899e4770c5552e6ea37e
+  custom:scripting/monoscript/fileName/GeneratedMeshesComponent.Editor.cs: e30ccd8148d7c64584e0c23a2456f25f -> 94d18c24b7239a6da638561b91fd9a53
+  custom:scripting/monoscript/fileName/TooltipContentState.cs: 1e171cf340bc8157acda6751f847a88c -> 85f340add0c0d5479c5967873b3feb88
+  custom:scripting/monoscript/fileName/SceneDragToolManager.cs: 6cd8822dc956ad0c74e96bf73dd71266 -> 8696d5c2bb35e8743694892a9872431f
+  custom:scripting/monoscript/fileName/SnappedPoint.cs: 59bf53aa4b5235838ce028b9eb65becc -> ca63da20e4ec2cef2c3f186de166453b
+  custom:scripting/monoscript/fileName/SceneDragTool.Materials.cs: 2da0fb030d8d3a0ab7d898b3e05e5da3 -> a30937c35278e41b81d8aca19e91de7c
+  custom:scripting/monoscript/fileName/BrushOutlineManager.cs: 286d5d8be9999ccc77ec9b75d185bbc7 -> a57ec124537e5ae5ed758f09a85899d1
+  custom:scripting/monoscript/fileName/TransformSelection.cs: dd15c99439113a3e7054908c05785138 -> ee0c93903abcb38fa9d682fe6f44170f
+  custom:scripting/monoscript/fileName/BrushIntersection.cs: 68c6fddc94b2c7ca2c2594b13ac02bf9 -> ac10639b0712604aba43963dec282f49
+  custom:scripting/monoscript/fileName/CSGPlane.cs: aecb99070738c71bbaac2467ca34165c -> 88dccc1590777b516b8f4adcae9e0831
+  custom:scripting/monoscript/fileName/GeneratedMeshDescription.cs: 1046e36800652b489cbb46a2a38d91e3 -> 0164208517bb8192082a2817a093f7e7
+  custom:scripting/monoscript/fileName/Generator.Cylinder.GUI.cs: c062c7cced481aaf06140ce710828702 -> 55b28a76ada442d68a48329e0a5f6edc
+  custom:scripting/monoscript/fileName/CameraUtility.cs: 8886e50bd492fc22691ab26f2a6cf2b5 -> de70ae99377ca23272961e9ad54fce0e
+  custom:scripting/monoscript/fileName/EditMode.Surface.GUIContents.cs: 5a3b2806aab52c9ee57ff5b7dbd7b4b1 -> d74acecb6296f8f5cdc2fc13f8faeed2
+  custom:scripting/monoscript/fileName/OperationsUtility.cs: bb405f0dc378e35e72ef064471538246 -> a37f7ebcaa4f8db01cd354c84a1aedf7
+  custom:scripting/monoscript/fileName/EditMode.Place.GUI.cs: 6f61177fb37ec450e67cdae8512a9263 -> d469a87ce62521b265d43016a37bc337
+  custom:scripting/monoscript/fileName/SceneToolRenderer.cs: aeebab48e8f9f806ef00d635c912246c -> c48bf4c137fa492954e7141445008eda
+  custom:scripting/monoscript/fileName/BrushMeshInstance.Native.cs: 1ae83e715aee3f671929a49c4afa646c -> 23a6fd447acba64fa6692e1d6f3f28d6
+  custom:scripting/monoscript/fileName/SceneViewEventHandler.cs: 2ffda23244fa02abe37c3e4796daad78 -> 7933ba341bd1edf5df348d783039154d
+  custom:scripting/monoscript/fileName/ControlMesh.cs: 58786c1c858a8fa12590bc435c52f83a -> 0918d0fcc16b28aa405b00a0ce780a3b
+  custom:scripting/monoscript/fileName/IGenerator.cs: 7158e87d60d38edfb99eb74246d89822 -> 6ce02388cfb1471fa82c44b28f58e900
+  custom:scripting/monoscript/fileName/EnumAsFlags.PropertyDrawer.cs: 97def91bf34a43d00d1c1def884658e8 -> 62ceabeaca091e0be70d340a8cdf8a9f
+  custom:scripting/monoscript/fileName/EditModeToolWindow.Editor.cs: e98dbd46c328cb4d4fcfe309d4d75416 -> ccafd6134fe4d6bba1a876998ac01506
+  custom:scripting/monoscript/fileName/TexGenState.cs: da791eb1fab3d3381121f372832d3c93 -> 930e1e2bbe10401c4ce0022772560da6
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.DefaultModel.cs: c1d719d709b27d8e16b1549e6c185ab2 -> 300c9535566fd49c1738b3d90e322a68
+  custom:scripting/monoscript/fileName/BrushOutlineRenderer.cs: 61ed8d39d52c4783b69947f252c65e57 -> f8325d384879c25d20d6bb1817701191
+  custom:scripting/monoscript/fileName/CSGRenderer.cs: b255945d3f0adb2cd815935d291cc3d1 -> 64eb84b35d04fe62f0cad076640939e0
+  custom:scripting/monoscript/fileName/EnumAsFlagsAttribute.cs: 2931b8202604d6bec5ccd0e76d6218bc -> ee48ed929bcee4e90d6cdefce8fc41ae
+  custom:scripting/monoscript/fileName/SceneViewBottomBar.GUI.cs: f70c52da5db068e01ba4a08ab0dbd8fa -> f059ccd7b2f296c27880cbf92e06347c
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/CSGBrush.cs: 3da6d81c27111340c05a57c6bb2e3643 -> 2f123bae9fa301efeb5755d8f288ec64
+  custom:scripting/monoscript/fileName/Version.cs: 3757d6f6cd56c848f55a3025269e75ce -> 9c62259bd0669f6da1217efe4b4ab750
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CSGModelModifiedEventAttribute.cs: 0e7b930a1443041c8400f1a474fce2dd -> f92037856d71629181bc5c4182d83da7
+  custom:scripting/monoscript/fileName/GeneratedMeshContents.cs: 420b2814f8c8ba8a712c6d4f50f1c91b -> 04419b9dcc3369c1a6b21322c415f6cf
+  custom:scripting/monoscript/fileName/ParentNodeDataExtension.cs: 03e53c1141a660b0b5d505fc7f572b7b -> 6546351085f6e64763f03ba11df4f8c2
+  custom:scripting/monoscript/fileName/BrushTraits.cs: 862f9e6c8931bbf7b10a57e2fe2cd019 -> 8e04b55b89369c5a1472840339b429a5
+  custom:scripting/monoscript/fileName/Outline2D.cs: d4be97d383edd84f230bb93d27d9a71b -> 24a6d0fea09f72e70ef7b734d382f8b3
+  custom:scripting/monoscript/fileName/BrushMeshUtility.cs: 1ed66a0acb6e4bda8e8475720eff6b0e -> 05cef1bbec5caa19fbe75a3e2cfd5c5b
+  custom:scripting/monoscript/fileName/LineMeshRenderer.cs: d9741240035fd7561af2a654632c5dec -> 070b0254f7309e5ef888762887316a18
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/SceneViewBottomBar.GUIContents.cs: f70c52da5db068e01ba4a08ab0dbd8fa -> f059ccd7b2f296c27880cbf92e06347c
+  custom:scripting/monoscript/fileName/BrushOperations.cs: c06e9abcce3aa8f224b2084b6a3e50f7 -> 3212632cccdd917b40f6566ea3df24ac
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CSGModel.cs: d244e93f3f7c209729401b1512c93044 -> 4924d30d32a95ae6c963689a21f4bd8a
+  custom:scripting/monoscript/fileName/EditMode.Clip.GUIContents.cs: 38693a2c08d7bcc9295cf00ccaff07f2 -> f864abdb8d137078a4e6bd1627c1c3ca
+  custom:scripting/monoscript/fileName/GUIConstants.cs: 0b78f4be3f6840f7b954d933ba1c3dc7 -> fb7f5103c0df144ec99f6057475d4be5
+  custom:scripting/monoscript/fileName/EditModeSelection.GUI.cs: 512b2a25795c0f2ef77411c021f95147 -> ed2089714821ed6b160b39e1f33b139c
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.GUIContents.cs: 44d86263584b394d8522b3d2001144b8 -> 6cea9a7c904d9bc2ceffa4d1a1e148bb
+  custom:scripting/monoscript/fileName/EditMode.Clip.cs: 70961ecc0810f97291cc76903e1a275a -> 3b83fd70ae936e266b2150b23ac34d60
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.Settings.cs: f3bae070eae88db79b7a8f8b0d93bfcf -> bd7c8f1e600009a879279954f22ec111
+  custom:scripting/monoscript/fileName/CSGFreeMove.cs: 9a9957f24edd67b4bf5919c24826b9bf -> da21fcd75d27e1313caf2f21365ce808
+  custom:scripting/monoscript/fileName/CSGOperation.cs: cafa7eeef458e60c7141043824732924 -> c68eaf0ab6a1711f6f81021eab35b1d8
+  custom:scripting/monoscript/fileName/VisibilityUtility.cs: 678e7a8ad7db9cb66ae76c4ed08c567f -> 2b1a35c50e8cab764e812d562da67948
+  custom:scripting/monoscript/fileName/PointMeshRenderer.cs: daef606218a685a78044ff588d7d32d8 -> 1d7fbbc1b237ccb94a5cb5370f5ba4f4
+  custom:scripting/monoscript/fileName/EditMode.Surface.cs: 05fd9a526ade76d871d25c37c46c41d7 -> 4a4808cfbbd1be08c2d84bf2577efc71
+  custom:scripting/monoscript/fileName/MeshInstanceManager.Export.cs: 56441a83d5dee02ec24543602e9db109 -> 79bdf101f164703846db788d89c21f2c
+  custom:scripting/monoscript/fileName/EditModeToolWindow.SceneGUI.cs: 129684c89b9b2aef411b94db9e5526c4 -> caa7137cf981e1a344aaa0a765c977a5
+  custom:scripting/monoscript/fileName/CSG_EditorGUIUtility.cs: 1ae1dd69cd77a99cfb7426022db9fbf0 -> 716d73b370fdc0ff19a2fc6b538f8683
+  custom:scripting/monoscript/fileName/GameObjectExtensions.cs: 8d76c196afc2a9e94feb6ff67eaf52cf -> b3715db9842cbc6f0c723f3241f875b1
+  custom:scripting/monoscript/fileName/Shape.cs: f44ee7550916c0acca4c1d0b0ed88f26 -> 5724e27adf70577b62b3c54024bdb5d8
+  custom:scripting/monoscript/fileName/UnityCompilerDefineManager.cs: 0fbbb1b91d9e9693a7d60595919124fb -> 08c42195d867dc6e100f9f44ed640a0c
+  custom:scripting/monoscript/fileName/FBXUnityMaterialGetter.cs: 0e4e94b84cb7e1328c6f0b3f503d9716 -> 7da4d16a399c044684f728ef4ad71997
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.GUIContents.cs: 98188d93aa6cbbea976160b58857541b -> a100db9c10ceffa2b715d6172fdfbb5c
+  custom:scripting/monoscript/fileName/ModelTraits.cs: d05fe3b1eec9d4d888d1ca48b1633e9c -> d067f11f5dc00812f708c9b535ff0743
+  custom:scripting/monoscript/fileName/CSGSceneManagerRedirector.cs: 401cf1ad5e5ebd9ea9d9953834593830 -> 59922747ec7b861c317c630efe7dca50
+  custom:scripting/monoscript/fileName/EditMode.Place.GUIContents.cs: 6f61177fb37ec450e67cdae8512a9263 -> d469a87ce62521b265d43016a37bc337
+  custom:scripting/monoscript/fileName/CSGModelManager.cs: 0933800f24ec1a94e392a74b3503adb4 -> db6c703508c75b66af69a6ec62606b55
+  custom:scripting/monoscript/fileName/TypeConstants.cs: 0100e4aa5858500a7da0530ad2a77af8 -> 4f5fb608a9da17db917a557f6e7ae605
+  custom:scripting/monoscript/fileName/EditMode.Edit.GUIContents.cs: a61cc85bda75bd0bce57f7b824d20ce2 -> 4dd7ec1e9ea05004f3f784ea735c98e4
+  custom:scripting/monoscript/fileName/MeshInstanceManager.cs: 56441a83d5dee02ec24543602e9db109 -> 79bdf101f164703846db788d89c21f2c
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.UpdateMeshes.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/HierarchyWindowItemGUI.cs: 0518162b525ca3883f33e517ce20415a -> c04362d94cfe59a1d7c982e4db308983
+  custom:scripting/monoscript/fileName/ExportedModelComponent.Editor.cs: aa23ba97ba3320de961e0f324f7c31e0 -> d91325c097dd9267ed57190c25bdb8c3
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Hierarchy.cs: c1d719d709b27d8e16b1549e6c185ab2 -> 300c9535566fd49c1738b3d90e322a68
+  custom:scripting/monoscript/fileName/CSGTreeBranch.Native.cs: 0edaaab336cedfc1a84560bdbd528e8d -> a8492f0f280baf6cdf2b97dc04922fc7
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.cs: fd3f2cf7092572e8857bbdd592677f7f -> 47273849d67fb003dfe47fc53305707f
+  custom:scripting/monoscript/fileName/Generator.FreeDraw.GUI.cs: 50c7664ef834376a3a1f05a3686bce0f -> 49451af9adb27fb16d39fe4ad814215d
+  custom:scripting/monoscript/fileName/FilteredSelection.cs: 48a835dcd39f1bfc9c8952d02eb56082 -> b027c56eac127f75afba08191287f12f
+  custom:scripting/monoscript/fileName/CylinderDefinition.cs: 4746d08b01179f9b382af4533481ea14 -> b51a4d0da4460691c00000fbe1715ff0
+  custom:scripting/monoscript/fileName/EditMode.Generate.GUI.cs: 181ee0f97570001984ade5d2db2ea57d -> 6d9134a07ea1b7fb55f1d7b13afcc266
+  custom:scripting/monoscript/fileName/ControlMeshState.cs: 3482abf17a94a378ead2a65689f14c19 -> c33f47b1b058f96319c7af2043a0318c
+  custom:scripting/monoscript/fileName/BrushFactory.Legacy.cs: a84da75b35110e7b2d4fbf542f594414 -> 69f7bb7e8f037861d7850b1f4ab7c122
+  custom:scripting/monoscript/fileName/CSGDisc.cs: 8af6589d55105c4f2fc6cf202fee7d78 -> 5cd41a203806e8aa15c80ac81113ba18
+  custom:scripting/monoscript/fileName/CSGFreeRotate.cs: 5634acf068b893ef562eaa5918736129 -> a636ee6b82a8115f7adfa460dd70b3f6
+  custom:scripting/monoscript/fileName/CompareTransformation.cs: 80e176fe09708a5924fc8ecb4214655a -> 0d21a76a0ea663c8143c8f2a1eda7fc9
+  custom:scripting/monoscript/fileName/SceneQueryUtility.cs: b3e33a06f8d7b101a94f6e0d9b69e249 -> a2a6937ee8e4cefb03a654ad939daccd
+  custom:scripting/monoscript/fileName/EditModeManager.cs: d7a07861f5beaed249e9e382b449dd27 -> a11fec93214a7400391c47afb8d32233
+  custom:scripting/monoscript/fileName/KeyEvent.cs: 7faba5d1cfe7979f27630e4d214e4e1e -> 772f077ede62cfb86e96b4fb9a399614
+  custom:scripting/monoscript/fileName/Generator.Sphere.GUIContents.cs: 8677c7af97b58def9bdf486599e637b7 -> 29bddbaf1e6e757b10dd78a4437c8bb3
+  custom:scripting/monoscript/fileName/SurfaceUtility.cs: 3461a6cbcfa714eaa44381d7d23e19a0 -> 87ea93bb0dfa9f167e9c966238d53e93
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Registration.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/EditModeSelection.GUIContents.cs: 512b2a25795c0f2ef77411c021f95147 -> ed2089714821ed6b160b39e1f33b139c
+  custom:scripting/monoscript/fileName/MeshQuery.cs: fa9802253534c0890028a87c1672bcf7 -> 5f0406b238acfcf57dfd7cd195fb4c39
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Caches.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/IEditMode.cs: 093fe1f73dfca110958be39b10e9d85b -> 175214231175d057a3b364a8b2967f7b
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RotationCircle.cs: 4f3785b1dd62fc3746f93f130e4a2b27 -> 8eea6beb09e5acef82e35e6c2405fb91
+  custom:scripting/monoscript/fileName/ChildNodeData.cs: 8187515a6984bf219881371b0ec735c0 -> 924ed515f084e90224eab012cdc4b171
+  custom:scripting/monoscript/fileName/BrushValidation.cs: ffd0a2b917bc33f1dc31c180bee2c7b2 -> 031721508735170516692fca9383a74e
+  custom:scripting/monoscript/fileName/CompareShape.cs: 2bd8551420b0383cfaa8d8ca688d6181 -> 907af8630c6539eb0cf65aad904ae409
+  custom:scripting/monoscript/fileName/BrushMeshInstance.cs: 1ae83e715aee3f671929a49c4afa646c -> 23a6fd447acba64fa6692e1d6f3f28d6
+  custom:scripting/monoscript/fileName/CSG_HandleUtility.cs: cac6e0a04a2eaa0abf21321cb1a89dcf -> 7a84b94a221dc8e2a4a070d6538e89f1
+  custom:scripting/monoscript/fileName/CSGGrid.cs: 86d0a78a64c4966f758e3488b08936ff -> 12a33a0a81ae132241024350f5662af1
+  custom:scripting/monoscript/fileName/BrushUtility.cs: 7d6e35ceab41cb15070d78553d5b8424 -> 5d5446e96c67a65ceb8b870ac49503d3
+  custom:scripting/monoscript/fileName/CSGTree.cs: 5c7201b45b1d4d9c70de869fc24595b8 -> 2d22c40a497b7ab258a2d15e319c41f7
+  custom:scripting/monoscript/fileName/Generator.Sphere.Settings.cs: c1263ed9301eca83dade0206314497ce -> ec0bbd492961c6083ad4e65e5f98abf5
+  custom:scripting/monoscript/fileName/Generator.Cylinder.GUIContents.cs: c062c7cced481aaf06140ce710828702 -> 55b28a76ada442d68a48329e0a5f6edc
+  custom:scripting/monoscript/fileName/SelectionUtility.cs: c3b7d92b07612a0d88d892d766e84baf -> c3b0d8d5c2cc3ef89fe3a118c84286f0
+  custom:scripting/monoscript/fileName/ShapePolygonUtility.cs: 778b921c0a82e4bd1368c965e84dfaec -> ceb7a8d4d0af5d38f86b7b0c63887e77
+  custom:scripting/monoscript/fileName/EditMode.Clip.GUI.cs: 38693a2c08d7bcc9295cf00ccaff07f2 -> f864abdb8d137078a4e6bd1627c1c3ca
+  custom:scripting/monoscript/fileName/HierarchyItemExtension.cs: 049bd92a9bbc0eb918cb9e2b96bb8f16 -> 5ee4a878f7b1b502a47f9d026b3b2109
+  custom:scripting/monoscript/fileName/PolygonMeshRenderer.cs: e5fe780cc658c7f5d71927e1256e5e05 -> 715d284b512f6b6f8db2d3b73f5b185e
+  custom:scripting/monoscript/fileName/GeometryWireframe.cs: 1bf9559135871ab99589dab316efad8c -> eeb4462f3b4e17d342918da27cfaac85
+  custom:scripting/monoscript/fileName/PaintUtility.cs: ba33aca801d43cd1f536a5d9f2cf8fd6 -> dbe6bcd811c0b09136e05ab1e7a23591
+  custom:scripting/monoscript/fileName/CSGKeys.PreferenceWindow.cs: 2b41830bcc346fce1d8350203c894254 -> ae5c593bb789444f43bf7c8f83f6faaf
+  custom:scripting/monoscript/fileName/SurfaceLayers.cs: 236908bd5040ab76bc7054714bfce00f -> 6bbc605d194ed0473adfa77b2a3c3f7a
+  custom:scripting/monoscript/fileName/TooltipUtility.cs: 6028e82f7aeca3aaea2560bfa2431fbf -> 91533f875852640c5879223c87f9ccb0
+  custom:scripting/monoscript/fileName/Keys.cs: d3694ac26b7a461ba754106d48622de8 -> 398e4372a091997873a4274457f23585
+  custom:scripting/monoscript/fileName/Generator.Cylinder.cs: dd4169cbe0601249328a1eb66adf7237 -> 5d2928f036e24178d976d9cc9c95c189
+  custom:scripting/monoscript/fileName/CSGTree.Native.cs: 5c7201b45b1d4d9c70de869fc24595b8 -> 2d22c40a497b7ab258a2d15e319c41f7
+  custom:scripting/monoscript/fileName/Generator.Base.cs: b8f16c26494154437c818476c465bed1 -> e1463547b3433f564a80c5cc16eb849e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSGTreeNode.Native.cs: 60b432a6cb5cf23444089e74a4139cb0 -> 2bc6eca8ab1e2b0b67f5f705cffb1f1b
+  custom:scripting/monoscript/fileName/ComponentUpgrader.cs: f7342895c16c55314ab181eac6754772 -> 90caa8f8bcf68cc985d8e9f0e2a8263f
+  custom:scripting/monoscript/fileName/MeshUtility.cs: 0cd519ca175116a3225c34e5757c917a -> 50b5b2c72f14489de76a6b4069353322
+  custom:scripting/monoscript/fileName/CSGSceneManagerInstance.cs: f150bb599caaa7dcada55af6044cf6b2 -> 27bedfdc5a8abe6bdb2fbc6cef4a255c
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.cs: 321f90754e1d62cb03b05b09abd50e77 -> 06a837079049ebf2add0fb1361236654
+  custom:scripting/monoscript/fileName/GridUtility.cs: bec57d94cfd28d7a629564a8dc9ac3ca -> d7b739c1f7911e35e9df3a4edda67838
+  custom:scripting/monoscript/fileName/CSGTreeNode.cs: 60b432a6cb5cf23444089e74a4139cb0 -> 2bc6eca8ab1e2b0b67f5f705cffb1f1b
+  custom:scripting/monoscript/fileName/FBXModelPostProcessor.cs: 5f3ec1beb634ca62d72b2c0565a719e9 -> 436b3278f0ad8d792358e543da727d6b
+  custom:scripting/monoscript/fileName/EditMode.Generate.GUIContents.cs: 181ee0f97570001984ade5d2db2ea57d -> 6d9134a07ea1b7fb55f1d7b13afcc266
+  custom:scripting/monoscript/fileName/SceneDragTool.Meshes.cs: ee34c42d90b3d4e92aab8efe191cce00 -> 29724cb6b4c52c15e4395687e092e7ed
+  custom:scripting/monoscript/fileName/ColorSettings.cs: 31062390841fa2fe88d4638b02e72cf5 -> ccd4220eecfbf7df6167a42910a807bd
+  custom:scripting/monoscript/fileName/CSG_GUIStyleUtility.cs: 7cf53e214c4e5f0bd997c393f8003e64 -> a291a1b05aed26d67001864160da7a96
+  custom:scripting/monoscript/fileName/ParentNodeData.cs: 9d5b02d98180c2043f044a410b875207 -> 3b1737ce2b77a2a117e2e53d99698b68
+  custom:scripting/monoscript/fileName/NativeMethodBindings.cs: e35a67f2816b3bbc3482bcdab4f551d6 -> 415394e42508bda761055ea6f68c171e
+  custom:scripting/monoscript/fileName/CSGModelComponent.Inspector.GUI.cs: 170aa67d748878a126c47ca3dc657354 -> 5510e0a7e57eb8fb972d9f508ffa6c66
+  custom:scripting/monoscript/fileName/CSGSettings.cs: 77316678a67fab2c2b9731231df43ad5 -> bf466e957a278efc29191cc9ca6c6156
+  custom:scripting/monoscript/fileName/CSGScaleSlider.cs: 8e6b25f2f718a104a64fd199f1c257b6 -> cac018749aa9a6b76236145484459aa8
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1036ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.8 MB). Loaded Objects now: 4397.
+Memory consumption went from 146.2 MB to 144.5 MB.
+Total: 2.751500 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.225400 ms  DeleteObjects: 0.267800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EditMode.Common.GUIContents.cs: 65c1c1202ff54684fcffbead53404142 -> cf4e2c2e6037f50bfe67fcf40fe209ed
+  custom:scripting/monoscript/fileName/MathConstants.cs: a20206927307b655376ef3f83f4e1b2c -> 3b794cbac4307bdd58fb2ab65f1447ab
+  custom:scripting/monoscript/fileName/CSGNode.cs: 9f84313514c3e97a10f1572cc2d92025 -> fdc2ec9b23b02f868ace913580fd351b
+  custom:scripting/monoscript/fileName/IShapeSettings.cs: 2df7d8daac549cf1c0dee4d2c4ca79b2 -> 847b8efd29e9c969d7621a25f7167416
+  custom:scripting/monoscript/fileName/MeshInstanceManager.Build.cs: 56441a83d5dee02ec24543602e9db109 -> 79bdf101f164703846db788d89c21f2c
+  custom:scripting/monoscript/fileName/CSGTreeBrush.Native.cs: f0a29d5b9199d72dfae23bfbc3f9a1b8 -> 7df766ce26865fe1143441a0b8281504
+  custom:scripting/monoscript/fileName/UndoGroup.cs: e3fdf66fd0743b0a425711ebbe3ec570 -> 919c4de39e73bb28997b5b8c46dcd823
+  custom:scripting/monoscript/fileName/FBXUnityMeshGetter.cs: 398ba8fe6fb41e32e14e5a4a3e52f217 -> 443adbfd471fb8355a8fcbc0ed14c6ac
+  custom:scripting/monoscript/fileName/CSGTreeBrush.cs: f0a29d5b9199d72dfae23bfbc3f9a1b8 -> 7df766ce26865fe1143441a0b8281504
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SceneViewInfo.GUIContents.cs: 2fd1b3308e1b06d0337ca572f7258aa0 -> 57f4c7e4a4db74199f153e2183fa457c
+  custom:scripting/monoscript/fileName/EditMode.Edit.cs: d07ceea76c997ba4519b280185e5d5c3 -> 9c32c983ddc63607773a72be862efa6e
+  custom:scripting/monoscript/fileName/CSGOptions.PreferenceWindow.cs: a2f0a5508f03947593bb53a33348728c -> 9207cccf6c1414079ae6bfd6dc57e2f2
+  custom:scripting/monoscript/fileName/BrushSelection.cs: 659b1eef5bc73af9eaffbeede1bd90c9 -> d0ebfa0e2bf7efacafe9a9ac3c365712
+  custom:scripting/monoscript/fileName/EditMode.Edit.GUI.cs: a61cc85bda75bd0bce57f7b824d20ce2 -> 4dd7ec1e9ea05004f3f784ea735c98e4
+  custom:scripting/monoscript/fileName/CSGModelExported.cs: 48dccb26341d35aeea9d8966cf0a17a6 -> a44c79e931664e1e88e31cd6f95ccbe5
+  custom:scripting/monoscript/fileName/CSGTreeBranch.cs: 0edaaab336cedfc1a84560bdbd528e8d -> a8492f0f280baf6cdf2b97dc04922fc7
+  custom:scripting/monoscript/fileName/Surface.cs: 0266f0b3312f616db9bb088014578d51 -> f3a649e4f0cd4fa6625cff9dd3e787b0
+  custom:scripting/monoscript/fileName/BrushMesh.cs: eaf2a5de20d45b9bdcfd88e85cbe8519 -> bb1d04e69827aa8b60bbc0a9894c59cf
+  custom:scripting/monoscript/fileName/EditMode.Surface.GUI.cs: 0d8494c629599722902eb8e35aca1047 -> 00e9113b2ada959a715d9c996c8f7f1c
+  custom:scripting/monoscript/fileName/SceneDragTool.BrushDragOnSurface.cs: 20e4ee7a59e6534934ec12af1a9d6fa1 -> f662297d6562ac7684ae0b3e632670b0
+  custom:scripting/monoscript/fileName/Generator.Box.Settings.cs: d8f1e8af390c85dcf39735e66e440c90 -> bd5d37a20d37bd1e3790b09443eb3fe5
+  custom:scripting/monoscript/fileName/CSGSlider2D.cs: 725fcdff72b10de81359965c352a3f61 -> df9db256720cd57d857c9e0381db71bd
+  custom:scripting/monoscript/fileName/Generator.ExtrudedBase.cs: 858fb2e7d832025cf08723e2cdf2e0b0 -> 5008338bb47995a4ba574617d1e31952
+  custom:scripting/monoscript/fileName/PrefabUtility.cs: b4c8476aa565ccaecd82b4aa022ea50c -> 70efc77b8c7aea9f9d39f29c2a26b373
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.GUI.cs: 44d86263584b394d8522b3d2001144b8 -> 6cea9a7c904d9bc2ceffa4d1a1e148bb
+  custom:scripting/monoscript/fileName/ControlMeshOperations.cs: cb62a3257cd2b765e741e6aa13af862b -> 94b5c16aa5d38db7cd0e53fc9eb47811
+  custom:scripting/monoscript/fileName/SelectBrushSurface.cs: 71db9efa92e1da6d2ee8f6c7814eaf25 -> ee97a7ac074b53e8a28627d43eb8617d
+  custom:scripting/monoscript/fileName/ISceneDragTool.cs: e94f6cd9d08cf40d64c40ede65d9661e -> 6e0a038b66b46dbd53ad1c8bcbfc567d
+  custom:scripting/monoscript/fileName/Generator.Sphere.GUI.cs: 8677c7af97b58def9bdf486599e637b7 -> 29bddbaf1e6e757b10dd78a4437c8bb3
+  custom:scripting/monoscript/fileName/BrushFactory.cs: a84da75b35110e7b2d4fbf542f594414 -> 69f7bb7e8f037861d7850b1f4ab7c122
+  custom:scripting/monoscript/fileName/SceneViewInfo.GUI.cs: 2fd1b3308e1b06d0337ca572f7258aa0 -> 57f4c7e4a4db74199f153e2183fa457c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Generator.FreeDraw.cs: f48c19522a8bcd1fcb7bb3bcfc002117 -> bb680620a69b88bf143e992faf04c673
+  custom:scripting/monoscript/fileName/Generator.Box.GUI.cs: 7d7ccb2d1ee091c8b069a31087b142bf -> 8599c392b7c37f79e33b08c36c242a1a
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GeometryUtility.cs: 1fd2f79ad710ef5932c411f7594d9760 -> 47c7e7891eac9b2894ccec7ca864b752
+  custom:scripting/monoscript/fileName/ShapeUtility.cs: 35a2b4c56b01a90b6b864d7371989398 -> 7a1e7a5b760b6bdbff89a51a778a11eb
+  custom:scripting/monoscript/fileName/EditMode.Generate.cs: 57bf3698923199a5baf2d9bdc178d2df -> 3d58a14a3068207199525274da3c4557
+  custom:scripting/monoscript/fileName/CSGManager.cs: 0dd5c2efda226112d505abe47c3cacee -> 011097cadb667fd9087bf8dee5be29ec
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.Settings.cs: f69b7e3b581063c1bb280364f03be9a5 -> f760cd4a16f07f74392965680ae3ffb3
+  custom:scripting/monoscript/fileName/CSGModelComponent.Inspector.GUIContents.cs: 7c083403cd7f14f52895a0a796edd996 -> ea48c3a3ea15e3c74692bca5d0d005aa
+  custom:scripting/monoscript/fileName/CSGSlider1D.cs: 0ee9f0ea1a3c2d46c0dec777e481c1d8 -> f5cbe0e59580c616a640de6a2dd97e86
+  custom:scripting/monoscript/fileName/GeneratedMeshes.cs: 6e7e4b7019638732a1bad13ea3843532 -> 05cdfd43ca97f3abc9c8fd386fe3b5cd
+  custom:scripting/monoscript/fileName/HierarchyItem.cs: 966b24cab75db634fb86efeb16d886d1 -> d75273544a67a7e7cda09a020cd31def
+  custom:scripting/monoscript/fileName/UpdateLoop.cs: 585319a94cfc80e54562719d7078a4f7 -> 152040caad951295042d04d8e6f715e0
+  custom:scripting/monoscript/fileName/TransformOperations.cs: 2cda1e37f2d2c0ef122b98525fdedbb7 -> 95e64491185ecbc0e18e097ac00c41ea
+  custom:scripting/monoscript/fileName/TexGen.cs: 2e4cc95eaa5b10175fc7721cd9de98f0 -> 84930945bbcdce086e554824a1ffbf6d
+  custom:scripting/monoscript/fileName/Generator.Box.cs: 8502fa8235cd337afed7a70a227a14fb -> 93f6665daf12b0e5d73fc6275bab878a
+  custom:scripting/monoscript/fileName/Generator.Cylinder.Settings.cs: 8579e8c0953d5c8b8305696585984d09 -> 3c5d6b224d0d619e04144bfa3c3ebc47
+  custom:scripting/monoscript/fileName/AABB.cs: 6cd3259c8f4f656e3b55074d368afc14 -> 09af1003bac3059b5e75c5c426bafded
+  custom:scripting/monoscript/fileName/Units.cs: 2269a8e80f1d937ec2e84d22bbd7bff2 -> 24ca0c684b58cc28b54a0958f2ebf7d8
+  custom:scripting/monoscript/fileName/UnityGridManager.cs: e249204647a3bbbd5471f307353d2900 -> d296cc58e7f257b656c7f5f6306f8e78
+  custom:scripting/monoscript/fileName/EditMode.Place.cs: bdb26191b6b8cdc23b59356a3c6ad710 -> af779812f3908dedd4aef6cd86baa1ed
+  custom:scripting/monoscript/fileName/FBXExporter.cs: 6591589807e71be55bb392e82cf04efd -> 0fd8f989e648112dfa08b224a141cb05
+  custom:scripting/monoscript/fileName/ControlMeshState.Selection.cs: 7d4886933ab118ad75a1cbcc52d9c057 -> ce99e722d7ce7ad494aea49dca4ca532
+  custom:scripting/monoscript/fileName/CSGBounds.cs: 1f2f106c3b546029d07b18199bc5f43b -> b1cc9a008527245ed15a76509ae50b52
+  custom:scripting/monoscript/fileName/Generator.FreeDraw.GUIContents.cs: 50c7664ef834376a3a1f05a3686bce0f -> 49451af9adb27fb16d39fe4ad814215d
+  custom:scripting/monoscript/fileName/GeneratedMeshInstance.cs: 0e13e91452ab3086c993808f58e71c22 -> db33bb50127b3f7b21d120c3e720b571
+  custom:scripting/monoscript/fileName/FBXMeshToString.cs: 6591589807e71be55bb392e82cf04efd -> 0fd8f989e648112dfa08b224a141cb05
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Lifetime.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/CSGSceneManagerInterface.cs: ac38858fa793fd5f48a644049f4b69f2 -> 489e869fa39e97f051d24964280a7b13
+  custom:scripting/monoscript/fileName/Generator.Box.GUIContents.cs: 7d7ccb2d1ee091c8b069a31087b142bf -> 8599c392b7c37f79e33b08c36c242a1a
+  custom:scripting/monoscript/fileName/ExporterMenu.cs: cb03f3d1519c5c44df7e7e4c1ce0ecf4 -> 8d190612570787d4e43f04292b3b3db0
+  custom:scripting/monoscript/fileName/EditMode.Common.GUI.cs: fb99ac84f67accc03eb39ef5a707d5b2 -> 38dd13b87e5ac3ec5cf649a3a0728c0a
+  custom:scripting/monoscript/fileName/LegacyGeneratedMeshContainer.cs: 3ce59fc7dc251fe4889f9660b31e8bd1 -> b0df54e13124bb9179b92a8720ee5dff
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.GUI.cs: 98188d93aa6cbbea976160b58857541b -> a100db9c10ceffa2b715d6172fdfbb5c
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CSGManager.Native.cs: 0dd5c2efda226112d505abe47c3cacee -> 011097cadb667fd9087bf8dee5be29ec
+  custom:scripting/monoscript/fileName/BoundsUtilities.cs: 0d1ced1151f9c74af519f82214358dd8 -> 9f8063217daa2e1de6efd92d284c7141
+  custom:scripting/monoscript/fileName/RectangleSelectionManager.cs: 9a47b36d69d9dd58d68c158847ba7ab0 -> 1299f128a6d3e991fb4e5a721d3159cd
+  custom:scripting/monoscript/fileName/CursorUtility.cs: d43440dc43bb17dd6bff121ba8c1c2bd -> 1fd251e7b4fb03edfd83e230f6bac97a
+  custom:scripting/monoscript/fileName/ControlMeshUtility.cs: 6f09c2dc7c2a004d56bd80a54b87784d -> 58cd09c11b500d1aaa3ae221c397b003
+  custom:scripting/monoscript/fileName/SurfaceVisibilityPopup.cs: 91882f149370b906e9cc682c4ecd2c90 -> 4ed6d38cb3eed3c7e91c8faf708a1c37
+  custom:scripting/monoscript/fileName/CSGHandles.cs: dcccda9efcd8327cb0fbc4e6fecb9901 -> 01e7c6cb856c51ab8f56317c740b73d4
+  custom:scripting/monoscript/fileName/MaterialUtility.cs: 1f839c47c8feb0302f93d4473c97c714 -> 16ce2ab1088b7025d2d0f9b2630defbc
+  custom:scripting/monoscript/fileName/Tooltip.cs: 4aaf304dbd0f4145b308f2912a0f949b -> aee37d9d5ac4d47a2e96105281eacd08
+  custom:scripting/monoscript/fileName/NativeMethods.cs: 95895b50b5218eda5f6c9fc8ac4c1388 -> 5f1f31c43951b7655403188e30d6a74d
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Generator.Sphere.cs: 98c8ef89e3bd647640e8e14fcd059f8f -> bcf3f44b9f37899e4770c5552e6ea37e
+  custom:scripting/monoscript/fileName/GeneratedMeshesComponent.Editor.cs: e30ccd8148d7c64584e0c23a2456f25f -> 94d18c24b7239a6da638561b91fd9a53
+  custom:scripting/monoscript/fileName/TooltipContentState.cs: 1e171cf340bc8157acda6751f847a88c -> 85f340add0c0d5479c5967873b3feb88
+  custom:scripting/monoscript/fileName/SceneDragToolManager.cs: 6cd8822dc956ad0c74e96bf73dd71266 -> 8696d5c2bb35e8743694892a9872431f
+  custom:scripting/monoscript/fileName/SnappedPoint.cs: 59bf53aa4b5235838ce028b9eb65becc -> ca63da20e4ec2cef2c3f186de166453b
+  custom:scripting/monoscript/fileName/SceneDragTool.Materials.cs: 2da0fb030d8d3a0ab7d898b3e05e5da3 -> a30937c35278e41b81d8aca19e91de7c
+  custom:scripting/monoscript/fileName/BrushOutlineManager.cs: 286d5d8be9999ccc77ec9b75d185bbc7 -> a57ec124537e5ae5ed758f09a85899d1
+  custom:scripting/monoscript/fileName/TransformSelection.cs: dd15c99439113a3e7054908c05785138 -> ee0c93903abcb38fa9d682fe6f44170f
+  custom:scripting/monoscript/fileName/BrushIntersection.cs: 68c6fddc94b2c7ca2c2594b13ac02bf9 -> ac10639b0712604aba43963dec282f49
+  custom:scripting/monoscript/fileName/CSGPlane.cs: aecb99070738c71bbaac2467ca34165c -> 88dccc1590777b516b8f4adcae9e0831
+  custom:scripting/monoscript/fileName/GeneratedMeshDescription.cs: 1046e36800652b489cbb46a2a38d91e3 -> 0164208517bb8192082a2817a093f7e7
+  custom:scripting/monoscript/fileName/Generator.Cylinder.GUI.cs: c062c7cced481aaf06140ce710828702 -> 55b28a76ada442d68a48329e0a5f6edc
+  custom:scripting/monoscript/fileName/CameraUtility.cs: 8886e50bd492fc22691ab26f2a6cf2b5 -> de70ae99377ca23272961e9ad54fce0e
+  custom:scripting/monoscript/fileName/EditMode.Surface.GUIContents.cs: 5a3b2806aab52c9ee57ff5b7dbd7b4b1 -> d74acecb6296f8f5cdc2fc13f8faeed2
+  custom:scripting/monoscript/fileName/OperationsUtility.cs: bb405f0dc378e35e72ef064471538246 -> a37f7ebcaa4f8db01cd354c84a1aedf7
+  custom:scripting/monoscript/fileName/EditMode.Place.GUI.cs: 6f61177fb37ec450e67cdae8512a9263 -> d469a87ce62521b265d43016a37bc337
+  custom:scripting/monoscript/fileName/SceneToolRenderer.cs: aeebab48e8f9f806ef00d635c912246c -> c48bf4c137fa492954e7141445008eda
+  custom:scripting/monoscript/fileName/BrushMeshInstance.Native.cs: 1ae83e715aee3f671929a49c4afa646c -> 23a6fd447acba64fa6692e1d6f3f28d6
+  custom:scripting/monoscript/fileName/SceneViewEventHandler.cs: 2ffda23244fa02abe37c3e4796daad78 -> 7933ba341bd1edf5df348d783039154d
+  custom:scripting/monoscript/fileName/ControlMesh.cs: 58786c1c858a8fa12590bc435c52f83a -> 0918d0fcc16b28aa405b00a0ce780a3b
+  custom:scripting/monoscript/fileName/IGenerator.cs: 7158e87d60d38edfb99eb74246d89822 -> 6ce02388cfb1471fa82c44b28f58e900
+  custom:scripting/monoscript/fileName/EnumAsFlags.PropertyDrawer.cs: 97def91bf34a43d00d1c1def884658e8 -> 62ceabeaca091e0be70d340a8cdf8a9f
+  custom:scripting/monoscript/fileName/EditModeToolWindow.Editor.cs: e98dbd46c328cb4d4fcfe309d4d75416 -> ccafd6134fe4d6bba1a876998ac01506
+  custom:scripting/monoscript/fileName/TexGenState.cs: da791eb1fab3d3381121f372832d3c93 -> 930e1e2bbe10401c4ce0022772560da6
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.DefaultModel.cs: c1d719d709b27d8e16b1549e6c185ab2 -> 300c9535566fd49c1738b3d90e322a68
+  custom:scripting/monoscript/fileName/BrushOutlineRenderer.cs: 61ed8d39d52c4783b69947f252c65e57 -> f8325d384879c25d20d6bb1817701191
+  custom:scripting/monoscript/fileName/CSGRenderer.cs: b255945d3f0adb2cd815935d291cc3d1 -> 64eb84b35d04fe62f0cad076640939e0
+  custom:scripting/monoscript/fileName/EnumAsFlagsAttribute.cs: 2931b8202604d6bec5ccd0e76d6218bc -> ee48ed929bcee4e90d6cdefce8fc41ae
+  custom:scripting/monoscript/fileName/SceneViewBottomBar.GUI.cs: f70c52da5db068e01ba4a08ab0dbd8fa -> f059ccd7b2f296c27880cbf92e06347c
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/CSGBrush.cs: 3da6d81c27111340c05a57c6bb2e3643 -> 2f123bae9fa301efeb5755d8f288ec64
+  custom:scripting/monoscript/fileName/Version.cs: 3757d6f6cd56c848f55a3025269e75ce -> 9c62259bd0669f6da1217efe4b4ab750
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CSGModelModifiedEventAttribute.cs: 0e7b930a1443041c8400f1a474fce2dd -> f92037856d71629181bc5c4182d83da7
+  custom:scripting/monoscript/fileName/GeneratedMeshContents.cs: 420b2814f8c8ba8a712c6d4f50f1c91b -> 04419b9dcc3369c1a6b21322c415f6cf
+  custom:scripting/monoscript/fileName/ParentNodeDataExtension.cs: 03e53c1141a660b0b5d505fc7f572b7b -> 6546351085f6e64763f03ba11df4f8c2
+  custom:scripting/monoscript/fileName/BrushTraits.cs: 862f9e6c8931bbf7b10a57e2fe2cd019 -> 8e04b55b89369c5a1472840339b429a5
+  custom:scripting/monoscript/fileName/Outline2D.cs: d4be97d383edd84f230bb93d27d9a71b -> 24a6d0fea09f72e70ef7b734d382f8b3
+  custom:scripting/monoscript/fileName/BrushMeshUtility.cs: 1ed66a0acb6e4bda8e8475720eff6b0e -> 05cef1bbec5caa19fbe75a3e2cfd5c5b
+  custom:scripting/monoscript/fileName/LineMeshRenderer.cs: d9741240035fd7561af2a654632c5dec -> 070b0254f7309e5ef888762887316a18
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/SceneViewBottomBar.GUIContents.cs: f70c52da5db068e01ba4a08ab0dbd8fa -> f059ccd7b2f296c27880cbf92e06347c
+  custom:scripting/monoscript/fileName/BrushOperations.cs: c06e9abcce3aa8f224b2084b6a3e50f7 -> 3212632cccdd917b40f6566ea3df24ac
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CSGModel.cs: d244e93f3f7c209729401b1512c93044 -> 4924d30d32a95ae6c963689a21f4bd8a
+  custom:scripting/monoscript/fileName/EditMode.Clip.GUIContents.cs: 38693a2c08d7bcc9295cf00ccaff07f2 -> f864abdb8d137078a4e6bd1627c1c3ca
+  custom:scripting/monoscript/fileName/GUIConstants.cs: 0b78f4be3f6840f7b954d933ba1c3dc7 -> fb7f5103c0df144ec99f6057475d4be5
+  custom:scripting/monoscript/fileName/EditModeSelection.GUI.cs: 512b2a25795c0f2ef77411c021f95147 -> ed2089714821ed6b160b39e1f33b139c
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.GUIContents.cs: 44d86263584b394d8522b3d2001144b8 -> 6cea9a7c904d9bc2ceffa4d1a1e148bb
+  custom:scripting/monoscript/fileName/EditMode.Clip.cs: 70961ecc0810f97291cc76903e1a275a -> 3b83fd70ae936e266b2150b23ac34d60
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.Settings.cs: f3bae070eae88db79b7a8f8b0d93bfcf -> bd7c8f1e600009a879279954f22ec111
+  custom:scripting/monoscript/fileName/CSGFreeMove.cs: 9a9957f24edd67b4bf5919c24826b9bf -> da21fcd75d27e1313caf2f21365ce808
+  custom:scripting/monoscript/fileName/CSGOperation.cs: cafa7eeef458e60c7141043824732924 -> c68eaf0ab6a1711f6f81021eab35b1d8
+  custom:scripting/monoscript/fileName/VisibilityUtility.cs: 678e7a8ad7db9cb66ae76c4ed08c567f -> 2b1a35c50e8cab764e812d562da67948
+  custom:scripting/monoscript/fileName/PointMeshRenderer.cs: daef606218a685a78044ff588d7d32d8 -> 1d7fbbc1b237ccb94a5cb5370f5ba4f4
+  custom:scripting/monoscript/fileName/EditMode.Surface.cs: 05fd9a526ade76d871d25c37c46c41d7 -> 4a4808cfbbd1be08c2d84bf2577efc71
+  custom:scripting/monoscript/fileName/MeshInstanceManager.Export.cs: 56441a83d5dee02ec24543602e9db109 -> 79bdf101f164703846db788d89c21f2c
+  custom:scripting/monoscript/fileName/EditModeToolWindow.SceneGUI.cs: 129684c89b9b2aef411b94db9e5526c4 -> caa7137cf981e1a344aaa0a765c977a5
+  custom:scripting/monoscript/fileName/CSG_EditorGUIUtility.cs: 1ae1dd69cd77a99cfb7426022db9fbf0 -> 716d73b370fdc0ff19a2fc6b538f8683
+  custom:scripting/monoscript/fileName/GameObjectExtensions.cs: 8d76c196afc2a9e94feb6ff67eaf52cf -> b3715db9842cbc6f0c723f3241f875b1
+  custom:scripting/monoscript/fileName/Shape.cs: f44ee7550916c0acca4c1d0b0ed88f26 -> 5724e27adf70577b62b3c54024bdb5d8
+  custom:scripting/monoscript/fileName/UnityCompilerDefineManager.cs: 0fbbb1b91d9e9693a7d60595919124fb -> 08c42195d867dc6e100f9f44ed640a0c
+  custom:scripting/monoscript/fileName/FBXUnityMaterialGetter.cs: 0e4e94b84cb7e1328c6f0b3f503d9716 -> 7da4d16a399c044684f728ef4ad71997
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.GUIContents.cs: 98188d93aa6cbbea976160b58857541b -> a100db9c10ceffa2b715d6172fdfbb5c
+  custom:scripting/monoscript/fileName/ModelTraits.cs: d05fe3b1eec9d4d888d1ca48b1633e9c -> d067f11f5dc00812f708c9b535ff0743
+  custom:scripting/monoscript/fileName/CSGSceneManagerRedirector.cs: 401cf1ad5e5ebd9ea9d9953834593830 -> 59922747ec7b861c317c630efe7dca50
+  custom:scripting/monoscript/fileName/EditMode.Place.GUIContents.cs: 6f61177fb37ec450e67cdae8512a9263 -> d469a87ce62521b265d43016a37bc337
+  custom:scripting/monoscript/fileName/CSGModelManager.cs: 0933800f24ec1a94e392a74b3503adb4 -> db6c703508c75b66af69a6ec62606b55
+  custom:scripting/monoscript/fileName/TypeConstants.cs: 0100e4aa5858500a7da0530ad2a77af8 -> 4f5fb608a9da17db917a557f6e7ae605
+  custom:scripting/monoscript/fileName/EditMode.Edit.GUIContents.cs: a61cc85bda75bd0bce57f7b824d20ce2 -> 4dd7ec1e9ea05004f3f784ea735c98e4
+  custom:scripting/monoscript/fileName/MeshInstanceManager.cs: 56441a83d5dee02ec24543602e9db109 -> 79bdf101f164703846db788d89c21f2c
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.UpdateMeshes.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/HierarchyWindowItemGUI.cs: 0518162b525ca3883f33e517ce20415a -> c04362d94cfe59a1d7c982e4db308983
+  custom:scripting/monoscript/fileName/ExportedModelComponent.Editor.cs: aa23ba97ba3320de961e0f324f7c31e0 -> d91325c097dd9267ed57190c25bdb8c3
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Hierarchy.cs: c1d719d709b27d8e16b1549e6c185ab2 -> 300c9535566fd49c1738b3d90e322a68
+  custom:scripting/monoscript/fileName/CSGTreeBranch.Native.cs: 0edaaab336cedfc1a84560bdbd528e8d -> a8492f0f280baf6cdf2b97dc04922fc7
+  custom:scripting/monoscript/fileName/Generator.LinearStairs.cs: fd3f2cf7092572e8857bbdd592677f7f -> 47273849d67fb003dfe47fc53305707f
+  custom:scripting/monoscript/fileName/Generator.FreeDraw.GUI.cs: 50c7664ef834376a3a1f05a3686bce0f -> 49451af9adb27fb16d39fe4ad814215d
+  custom:scripting/monoscript/fileName/FilteredSelection.cs: 48a835dcd39f1bfc9c8952d02eb56082 -> b027c56eac127f75afba08191287f12f
+  custom:scripting/monoscript/fileName/CylinderDefinition.cs: 4746d08b01179f9b382af4533481ea14 -> b51a4d0da4460691c00000fbe1715ff0
+  custom:scripting/monoscript/fileName/EditMode.Generate.GUI.cs: 181ee0f97570001984ade5d2db2ea57d -> 6d9134a07ea1b7fb55f1d7b13afcc266
+  custom:scripting/monoscript/fileName/ControlMeshState.cs: 3482abf17a94a378ead2a65689f14c19 -> c33f47b1b058f96319c7af2043a0318c
+  custom:scripting/monoscript/fileName/BrushFactory.Legacy.cs: a84da75b35110e7b2d4fbf542f594414 -> 69f7bb7e8f037861d7850b1f4ab7c122
+  custom:scripting/monoscript/fileName/CSGDisc.cs: 8af6589d55105c4f2fc6cf202fee7d78 -> 5cd41a203806e8aa15c80ac81113ba18
+  custom:scripting/monoscript/fileName/CSGFreeRotate.cs: 5634acf068b893ef562eaa5918736129 -> a636ee6b82a8115f7adfa460dd70b3f6
+  custom:scripting/monoscript/fileName/CompareTransformation.cs: 80e176fe09708a5924fc8ecb4214655a -> 0d21a76a0ea663c8143c8f2a1eda7fc9
+  custom:scripting/monoscript/fileName/SceneQueryUtility.cs: b3e33a06f8d7b101a94f6e0d9b69e249 -> a2a6937ee8e4cefb03a654ad939daccd
+  custom:scripting/monoscript/fileName/EditModeManager.cs: d7a07861f5beaed249e9e382b449dd27 -> a11fec93214a7400391c47afb8d32233
+  custom:scripting/monoscript/fileName/KeyEvent.cs: 7faba5d1cfe7979f27630e4d214e4e1e -> 772f077ede62cfb86e96b4fb9a399614
+  custom:scripting/monoscript/fileName/Generator.Sphere.GUIContents.cs: 8677c7af97b58def9bdf486599e637b7 -> 29bddbaf1e6e757b10dd78a4437c8bb3
+  custom:scripting/monoscript/fileName/SurfaceUtility.cs: 3461a6cbcfa714eaa44381d7d23e19a0 -> 87ea93bb0dfa9f167e9c966238d53e93
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Registration.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/EditModeSelection.GUIContents.cs: 512b2a25795c0f2ef77411c021f95147 -> ed2089714821ed6b160b39e1f33b139c
+  custom:scripting/monoscript/fileName/MeshQuery.cs: fa9802253534c0890028a87c1672bcf7 -> 5f0406b238acfcf57dfd7cd195fb4c39
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/InternalCSGModelManager.Caches.cs: 07687b66ccf2f346a58e72dd2cf3d341 -> 7c1ae7dd5889e7789bfb7220c97840f7
+  custom:scripting/monoscript/fileName/IEditMode.cs: 093fe1f73dfca110958be39b10e9d85b -> 175214231175d057a3b364a8b2967f7b
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RotationCircle.cs: 4f3785b1dd62fc3746f93f130e4a2b27 -> 8eea6beb09e5acef82e35e6c2405fb91
+  custom:scripting/monoscript/fileName/ChildNodeData.cs: 8187515a6984bf219881371b0ec735c0 -> 924ed515f084e90224eab012cdc4b171
+  custom:scripting/monoscript/fileName/BrushValidation.cs: ffd0a2b917bc33f1dc31c180bee2c7b2 -> 031721508735170516692fca9383a74e
+  custom:scripting/monoscript/fileName/CompareShape.cs: 2bd8551420b0383cfaa8d8ca688d6181 -> 907af8630c6539eb0cf65aad904ae409
+  custom:scripting/monoscript/fileName/BrushMeshInstance.cs: 1ae83e715aee3f671929a49c4afa646c -> 23a6fd447acba64fa6692e1d6f3f28d6
+  custom:scripting/monoscript/fileName/CSG_HandleUtility.cs: cac6e0a04a2eaa0abf21321cb1a89dcf -> 7a84b94a221dc8e2a4a070d6538e89f1
+  custom:scripting/monoscript/fileName/CSGGrid.cs: 86d0a78a64c4966f758e3488b08936ff -> 12a33a0a81ae132241024350f5662af1
+  custom:scripting/monoscript/fileName/BrushUtility.cs: 7d6e35ceab41cb15070d78553d5b8424 -> 5d5446e96c67a65ceb8b870ac49503d3
+  custom:scripting/monoscript/fileName/CSGTree.cs: 5c7201b45b1d4d9c70de869fc24595b8 -> 2d22c40a497b7ab258a2d15e319c41f7
+  custom:scripting/monoscript/fileName/Generator.Sphere.Settings.cs: c1263ed9301eca83dade0206314497ce -> ec0bbd492961c6083ad4e65e5f98abf5
+  custom:scripting/monoscript/fileName/Generator.Cylinder.GUIContents.cs: c062c7cced481aaf06140ce710828702 -> 55b28a76ada442d68a48329e0a5f6edc
+  custom:scripting/monoscript/fileName/SelectionUtility.cs: c3b7d92b07612a0d88d892d766e84baf -> c3b0d8d5c2cc3ef89fe3a118c84286f0
+  custom:scripting/monoscript/fileName/ShapePolygonUtility.cs: 778b921c0a82e4bd1368c965e84dfaec -> ceb7a8d4d0af5d38f86b7b0c63887e77
+  custom:scripting/monoscript/fileName/EditMode.Clip.GUI.cs: 38693a2c08d7bcc9295cf00ccaff07f2 -> f864abdb8d137078a4e6bd1627c1c3ca
+  custom:scripting/monoscript/fileName/HierarchyItemExtension.cs: 049bd92a9bbc0eb918cb9e2b96bb8f16 -> 5ee4a878f7b1b502a47f9d026b3b2109
+  custom:scripting/monoscript/fileName/PolygonMeshRenderer.cs: e5fe780cc658c7f5d71927e1256e5e05 -> 715d284b512f6b6f8db2d3b73f5b185e
+  custom:scripting/monoscript/fileName/GeometryWireframe.cs: 1bf9559135871ab99589dab316efad8c -> eeb4462f3b4e17d342918da27cfaac85
+  custom:scripting/monoscript/fileName/PaintUtility.cs: ba33aca801d43cd1f536a5d9f2cf8fd6 -> dbe6bcd811c0b09136e05ab1e7a23591
+  custom:scripting/monoscript/fileName/CSGKeys.PreferenceWindow.cs: 2b41830bcc346fce1d8350203c894254 -> ae5c593bb789444f43bf7c8f83f6faaf
+  custom:scripting/monoscript/fileName/SurfaceLayers.cs: 236908bd5040ab76bc7054714bfce00f -> 6bbc605d194ed0473adfa77b2a3c3f7a
+  custom:scripting/monoscript/fileName/TooltipUtility.cs: 6028e82f7aeca3aaea2560bfa2431fbf -> 91533f875852640c5879223c87f9ccb0
+  custom:scripting/monoscript/fileName/Keys.cs: d3694ac26b7a461ba754106d48622de8 -> 398e4372a091997873a4274457f23585
+  custom:scripting/monoscript/fileName/Generator.Cylinder.cs: dd4169cbe0601249328a1eb66adf7237 -> 5d2928f036e24178d976d9cc9c95c189
+  custom:scripting/monoscript/fileName/CSGTree.Native.cs: 5c7201b45b1d4d9c70de869fc24595b8 -> 2d22c40a497b7ab258a2d15e319c41f7
+  custom:scripting/monoscript/fileName/Generator.Base.cs: b8f16c26494154437c818476c465bed1 -> e1463547b3433f564a80c5cc16eb849e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CSGTreeNode.Native.cs: 60b432a6cb5cf23444089e74a4139cb0 -> 2bc6eca8ab1e2b0b67f5f705cffb1f1b
+  custom:scripting/monoscript/fileName/ComponentUpgrader.cs: f7342895c16c55314ab181eac6754772 -> 90caa8f8bcf68cc985d8e9f0e2a8263f
+  custom:scripting/monoscript/fileName/MeshUtility.cs: 0cd519ca175116a3225c34e5757c917a -> 50b5b2c72f14489de76a6b4069353322
+  custom:scripting/monoscript/fileName/CSGSceneManagerInstance.cs: f150bb599caaa7dcada55af6044cf6b2 -> 27bedfdc5a8abe6bdb2fbc6cef4a255c
+  custom:scripting/monoscript/fileName/Generator.SpiralStairs.cs: 321f90754e1d62cb03b05b09abd50e77 -> 06a837079049ebf2add0fb1361236654
+  custom:scripting/monoscript/fileName/GridUtility.cs: bec57d94cfd28d7a629564a8dc9ac3ca -> d7b739c1f7911e35e9df3a4edda67838
+  custom:scripting/monoscript/fileName/CSGTreeNode.cs: 60b432a6cb5cf23444089e74a4139cb0 -> 2bc6eca8ab1e2b0b67f5f705cffb1f1b
+  custom:scripting/monoscript/fileName/FBXModelPostProcessor.cs: 5f3ec1beb634ca62d72b2c0565a719e9 -> 436b3278f0ad8d792358e543da727d6b
+  custom:scripting/monoscript/fileName/EditMode.Generate.GUIContents.cs: 181ee0f97570001984ade5d2db2ea57d -> 6d9134a07ea1b7fb55f1d7b13afcc266
+  custom:scripting/monoscript/fileName/SceneDragTool.Meshes.cs: ee34c42d90b3d4e92aab8efe191cce00 -> 29724cb6b4c52c15e4395687e092e7ed
+  custom:scripting/monoscript/fileName/ColorSettings.cs: 31062390841fa2fe88d4638b02e72cf5 -> ccd4220eecfbf7df6167a42910a807bd
+  custom:scripting/monoscript/fileName/CSG_GUIStyleUtility.cs: 7cf53e214c4e5f0bd997c393f8003e64 -> a291a1b05aed26d67001864160da7a96
+  custom:scripting/monoscript/fileName/ParentNodeData.cs: 9d5b02d98180c2043f044a410b875207 -> 3b1737ce2b77a2a117e2e53d99698b68
+  custom:scripting/monoscript/fileName/NativeMethodBindings.cs: e35a67f2816b3bbc3482bcdab4f551d6 -> 415394e42508bda761055ea6f68c171e
+  custom:scripting/monoscript/fileName/CSGModelComponent.Inspector.GUI.cs: 170aa67d748878a126c47ca3dc657354 -> 5510e0a7e57eb8fb972d9f508ffa6c66
+  custom:scripting/monoscript/fileName/CSGSettings.cs: 77316678a67fab2c2b9731231df43ad5 -> bf466e957a278efc29191cc9ca6c6156
+  custom:scripting/monoscript/fileName/CSGScaleSlider.cs: 8e6b25f2f718a104a64fd199f1c257b6 -> cac018749aa9a6b76236145484459aa8
